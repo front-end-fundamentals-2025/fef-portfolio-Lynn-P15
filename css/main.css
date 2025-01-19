@@ -1,8 +1,4 @@
-h2 {
-  font-family: "Pacifico", serif;
-  font-weight: 100;
-}
-
+/* top */
 #logo {
   font-family: "Pacifico", serif;
   font-weight: 300;
@@ -12,7 +8,7 @@ h2 {
   padding-left: 10px;
   padding-bottom: 5px;
 }
-
+/* links */
 ul {
   list-style: none;
 }
@@ -20,12 +16,21 @@ a {
   color: green;
   font-family: "Funnel Sans", serif;
 }
-p {
+/* runing text */
+
+p,
+h1 {
   font-family: "Funnel Sans", serif;
 }
+/* image */
 .portrait-img {
   width: 30%;
 }
+/* bottom/footer */
 footer {
   border-top: 2px solid green;
+}
+h2 {
+  font-family: "Pacifico", serif;
+  font-weight: 100;
 }
