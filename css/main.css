@@ -1,0 +1,31 @@
+h2 {
+  font-family: "Pacifico", serif;
+  font-weight: 100;
+}
+
+#logo {
+  font-family: "Pacifico", serif;
+  font-weight: 300;
+  font-size: 2rem;
+  border-top: 4px solid green;
+  border-bottom: 4px solid green;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  color: green;
+  font-family: "Funnel Sans", serif;
+}
+p {
+  font-family: "Funnel Sans", serif;
+}
+.portrait-img {
+  width: 30%;
+}
+footer {
+  border-top: 2px solid green;
+}
