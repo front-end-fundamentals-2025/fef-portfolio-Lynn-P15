@@ -1,16 +1,27 @@
 /* top */
+header {
+  height: 90px;
+  display: flex;
+  border-top: 4px solid green;
+  border-bottom: 4px solid green;
+  align-items: center;
+}
+
 #logo {
   font-family: "Pacifico", serif;
   font-weight: 300;
   font-size: 2rem;
-  border-top: 4px solid green;
-  border-bottom: 4px solid green;
+
   padding-left: 10px;
   padding-bottom: 5px;
 }
 /* links */
 ul {
   list-style: none;
+  display: flex;
+}
+li {
+  margin-left: 3rem;
 }
 a {
   color: green;
@@ -39,30 +50,46 @@ h3 {
   padding-left: 130px;
 }
 
-h4,
-h5 {
+#page-2-main {
   font-family: "Funnel Sans", serif;
-  font-size: 15px;
-  width: 300px;
-  padding-left: 5px;
-  border: 1px solid green;
-  margin-left: 30px;
 }
 
-h6 {
-  font-family: "Funnel Sans", serif;
-  font-size: 15px;
-  width: 300px;
-  height: 80px;
-  padding-left: 5px;
-  padding-bottom: 1px;
-  border: 1px solid green;
-  margin-left: 30px;
+.container {
+  padding: 20px;
+  border: 2px solid green;
+  margin-right: 350px;
 }
-h7 {
-  font-family: "Funnel Sans", serif;
-  margin-left: 155px;
-  border: 3px solid green;
-  padding: 5px;
-  margin-bottom: 40px;
+
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.category-image {
+  width: 100%;
+}
+.category-image-detail {
+  padding-left: 30fr;
+  width: 45%;
+}
+.category-image-lego {
+  width: 100%;
+}
+@media screen and (max-width: 680px) {
+  #logo {
+    font-size: 1.5rem;
+  }
+  ul {
+    padding-left: 0rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  #logo {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

@@ -20,24 +20,61 @@
           <a href="index.html">
             <li>Home</li>
           </a>
+          <a href="work.html">
+            <li>Work</li>
+          </a>
           <a href="contact.html">
             <li>Contact Info</li>
           </a>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="page-2-main">
       <h1>Contact Information</h1>
       <h3>Contact Me</h3>
-      <h4>Name</h4>
-      <h5>E-mail</h5>
-      <h6>Message</h6>
-      <h7>Send</h7>
-      <br />
-      <br />
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname"> Name</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="firstname"
+            placeholder="Your name.."
+            style="width: 300px"
+          />
+          <br />
+          <br />
+
+          <label for="lname">E-mail..</label>
+          <br />
+          <input
+            type="text"
+            id="E-mail"
+            name="E-mail"
+            placeholder="Your last E-mail.."
+            style="width: 300px"
+          />
+          <br />
+          <br />
+
+          <label for="subject">Message</label>
+          <br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message.."
+            style="width: 300px"
+          ></textarea>
+          <br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
       <br />
       <p>Other contact methods:</p>
-      <p>E-mail: lynnpevi@gmail.com</p>
+
+      <p>Email: lynnpevi@gmail.com</p>
     </main>
     <br />
     <footer>
