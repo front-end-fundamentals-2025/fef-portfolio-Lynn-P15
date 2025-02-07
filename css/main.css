@@ -60,10 +60,24 @@ h3 {
   margin-right: 350px;
 }
 
+/* images in the work page */
+
 .category-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  animation-name: pop;
+  animation-duration: 3s;
 }
+
+@keyframes pop {
+  25% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+
 .category-image {
   width: 100%;
 }
