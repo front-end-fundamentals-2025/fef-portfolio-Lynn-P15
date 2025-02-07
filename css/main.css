@@ -83,7 +83,7 @@ h3 {
     transform: scale(1);
   }
 }
-
+/* background color change animation */
 body {
   background-color: white;
   animation-name: color-change;
