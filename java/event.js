@@ -6,9 +6,11 @@ darkModeButton.addEventListener("click", function (event) {
   bodyElement.style.color = "#ffffff";
 });
 
-const darkModeButtonWork = document.getElementById("dark-mode-button-work");
+// work in progress
 
-darkModeButtonWork.addEventListener("click", function (event) {
-  bodyElement.style.backgroundColor = "#000000";
-  bodyElement.style.color = "#ffffff";
-});
+// const darkModeButtonWork = document.getElementById("dark-mode-button-work");
+
+// darkModeButtonWork.addEventListener("click", function (event) {
+//   bodyElement.style.backgroundColor = "#000000";
+//   bodyElement.style.color = "#ffffff";
+// });
