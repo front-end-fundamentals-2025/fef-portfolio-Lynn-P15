@@ -115,6 +115,7 @@ body {
 .category-image-lego {
   width: 100%;
 }
+
 @media screen and (max-width: 680px) {
   #logo {
     font-size: 1.5rem;
