@@ -6,12 +6,12 @@ const bodyElement = document.querySelector("body");
 if (localStorage.bColour) {
   bodyElement.style.backgroundColor = localStorage.bColour;
 } else {
-  bodyElement.style.backgroundColor = "#000000";
+  bodyElement.style.backgroundColor = "#ffffff";
 }
 if (localStorage.tColour) {
   bodyElement.style.color = localStorage.tColour;
 } else {
-  bodyElement.style.color = "#ffffff";
+  bodyElement.style.color = "#000000";
 }
 
 darkModeButton.addEventListener("click", function (event) {
